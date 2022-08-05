@@ -223,12 +223,18 @@ h3{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    color : black;
 }
 
-.footer h4{
+.footer h4 p{
     margin-bottom: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 600;
+    color : black;
+}
+
+.footer p{
+    color: black;
 }
 
 /* ------ ABOUT US PAGE------*/
@@ -240,7 +246,7 @@ h3{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color:#fff
+    color:black;
 }
 
 .sub-header h1{
@@ -304,13 +310,15 @@ h3{
 }
 
 .titleh{
+    position: relative;
     text-align: center;
     box-sizing: border-box;
     width: 80%;
     margin:auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 140px;
     padding-bottom: 50px;
+    color: black;
 }
 .entry p{
     width: 1000px;
@@ -320,6 +328,8 @@ h3{
     font-weight: 500;
     line-height: 1.75;
     display: flex;
+    color: black;
+    padding-bottom: 80px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1136px){
@@ -332,18 +342,18 @@ h3{
 }
 
 .col img{
-    position: relative;
     display: block;
     width: calc(100% - 100px);
     max-width: 1140px;
     height: 600px;
     margin: 50px auto 0 auto;
-    background: #9888EA;
     border-radius: 15px;
+    padding-top: -100px;
 }
 .entry h2{
     line-height: 23px;
     text-align: center;
+    color: black;
 }
 .video iframe{
     position: relative;

@@ -14,8 +14,5 @@ function holyTemplate(text) {
 }
 
 document.getElementById("holyTitle").innerHTML = `
-
     ${holy.map(holyTemplate)}
-
-
 `;

@@ -8,8 +8,8 @@ const footer = [
 
 function footerTemplate(text) {
     return `
-        <div class="foot">
-            <h14>${text.title}</h14>
+        <div class="footer">
+            <h4>${text.title}</h4>
             <p>${text.subtitle}</p>
             <p>${text.sub}</p>
         </div>
