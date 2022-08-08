@@ -1,12 +1,12 @@
 
-function link(text) {
+function link() {
     if(document.URL.includes("name=holy")) {
         return template(data[data.findIndex(object => {return object.name === 'holy'})])
     } else if (document.URL.includes("name=carnival")) {
         return template(data[data.findIndex(object => {return object.name === 'carnival'})])
     } else if (document.URL.includes("name=fallas")) {
         return template(data[data.findIndex(object => {return object.name === 'fallas'})])
-    }
+    } 
 }
 
 function template(text) {
@@ -32,12 +32,12 @@ function template(text) {
 }
 
 
-function pageTemplate(text) {
+function pageTemplate() {
     return `
-      ${link(text)}  
+      ${link()}  
     `
 }
 
 document.getElementById("event").innerHTML = `
-    ${data.map(pageTemplate).join('')}
+    ${pageTemplate()}
 `;
