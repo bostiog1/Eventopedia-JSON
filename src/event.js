@@ -38,6 +38,7 @@ function pageTemplate() {
     `
 }
 
+
 document.getElementById("event").innerHTML = `
     ${pageTemplate()}
 `;
