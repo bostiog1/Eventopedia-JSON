@@ -1,18 +1,3 @@
-const navBar = [
-    {
-       nav: "HOME",  
-       src: "event.html"
-    },
-    {
-        nav: "CALENDAR OF EVENTS",
-        src: "calendar.html"
-    },
-    {
-        nav: "ABOUT",
-        src: "about.html"
-    }
-  ];
-
 
 function navTemplate(text) {
     return `<div class="nav-links">
