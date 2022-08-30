@@ -4,7 +4,7 @@ function calendarTemplate(text) {
         <div class="campus-col">
             <img src=${text.img}>
             <div class="layer">
-            <a href="${text.src}">
+            <a href="template.html?name=${text.name}">
                     <h3>${text.txt}</h3>
             </a>
             </div>

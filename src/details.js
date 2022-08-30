@@ -9,7 +9,7 @@ const data = [ {
         video : "https://www.youtube.com/embed/7fKtCV3hNNI",
         info3 : "<br>Semana Santa is the Spanish celebration for the week leading up to Easter. It’s celebrated all over the country with religious brotherhoods performing penance processions on the streets. <br><br> Traditionally running from Palm Sunday (Domingo de Ramos) to Easter Sunday (Domingo de Pascua), Semana Santa is the biggest religious celebration of the year in Spain, and it’s historically used as a way to explain the story of Jesus to the laypeople.",
         img: "images/holy.jpg",  
-        src: "template.html?name=holy",
+        src: "holy",
         txt: "La Semana Santa"
     },                            
     { 
@@ -23,7 +23,7 @@ const data = [ {
         video : "https://www.youtube.com/embed/_XeezoDJk1A",
         info3 : "<br><br><br>In Spain, there is typically a packed Carnival programme that lasts all week. It begins with the arrival of the Carnival King or Queen, looking to spread joy and mischief throughout the city, followed by parades, inventive costumes and music – usually samba-style drumming from Brazil. The week ends with the Entierro de la Sardina, or the Burial of the Sardine, a mock funeral procession to say goodbye to the revelry and the Carnival King or Queen, before the start of Lent. ",
         img: "images/carnival.jpg",
-        src: "template.html?name=carnival",
+        src: "carnival",
         txt: "Carnival"
     },   
     {
