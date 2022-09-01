@@ -1,13 +1,30 @@
+const str = "?name=";
+const result = str.substring(6);
+console.log('result', result)
+
+const find = document.URL.includes(result)
+console.log('find',find)
+
+
 
 function link() {
-    if(document.URL.includes("name=holy")) {
-        return template(data[data.findIndex(object => {return object.name === 'holy'})])
-    } else if (document.URL.includes("name=carnival")) {
-        return template(data[data.findIndex(object => {return object.name === 'carnival'})])
-    } else if (document.URL.includes("name=fallas")) {
-        return template(data[data.findIndex(object => {return object.name === 'fallas'})])
-    } 
+    if(find === result) {
+        return template(data[(object => {return object.name === result})])
+    }
 }
+
+
+
+
+// function link() {
+//     if(document.URL.includes("holy")) {
+//         return template(data[data.findIndex(object => {return object.name === 'holy'})])
+//     } else if (document.URL.includes("carnival")) {
+//         return template(data[data.findIndex(object => {return object.name === 'carnival'})])
+//     } else if (document.URL.includes("fallas")) {
+//         return template(data[data.findIndex(object => {return object.name === 'fallas'})])
+//     }
+// }
 
 function template(text) {
     return `
